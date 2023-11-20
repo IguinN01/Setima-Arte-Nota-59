@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Rubik';
+}
+
+body {
+    background-color: #f7f9fa;
+}
+
+/* 
+BARRA STYLE___________________________________________________________________________________________________________________________________ */
+
+div.barra {
+    display: flex;
+    box-shadow: 0vh 2.206vh 2.941vh #382ae14d;
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 10%, #e3cff3 60%);
+}
+
+div.barra img.logo {
+    margin: 5.441vh 18.824vh 4.412vh 6.618vh;
+    max-width: 29.412vh;
+}
+
+div .classificacao {
+    margin-top: 8.088vh;
+    margin-left: 9.118vh;
+    display: flex;
+}
+
+/* 
+BTN GENEROS___________________________________________________________________________________________________________________________________ */
+li {
+    margin-left: 4.412vh;
+}
+
+p#btn-exp {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 2.941vh;
+}
+
+p#btn-exp:hover {
+    color: #d6d2e7;
+}
+
+nav.menu-lateral {
+    width: 0vh;
+    height: 0vh;
+    top: 12.5vh;
+    left: 64.706vh;
+    position: absolute;
+    overflow: hidden;
+    transition: .5s;
+    padding-top: 3.676vh;
+}
+
+nav.menu-lateral.expandir {
+    width: 42.647vh;
+    height: 75vh;
+    background-color: #f5f5f5;
+    border-radius: 0.588vh;
+    box-shadow: 0.588vh 0.588vh 0.588vh #786cf8;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 1.471vh;
+}
+
+ul li.item-menu {
+    transition: .2s;
+}
+
+ul li.item-menu:hover {
+    padding-left: 1.176vh;
+    margin-left: 1.471vh;
+    width: 73.529vh;
+    background: #786cf8;
+}
+
+ul li.item-menu a {
+    font-size: 2.941vh;
+    padding: 0vh -25%;
+    display: flex;
+    margin-bottom: 2.941vh;
+    line-height: 5.882vh;
+    color: #000000;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 0vh;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    opacity: 1;
+}
+
+/* 
+BTN DIRETOR____________________________________________________________________________________________________________________________________ */
+p#btn-exp-dd {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 2.941vh;
+}
+
+p#btn-exp-dd:hover {
+    color: #d6d2e7;
+}
+
+nav.menu-lateral-dd {
+    width: 0vh;
+    height: 0vh;
+    top: 12.5vh;
+    left: 91.176vh;
+    position: absolute;
+    overflow: hidden;
+    transition: .5s;
+    padding-top: 3.676vh;
+}
+
+nav.menu-lateral-dd.expandir-dd {
+    width: 42.647vh;
+    height: 48.529vh;
+    background-color: whitesmoke;
+    border-radius: 0.588vh;
+    box-shadow: 0.588vh 0.588vh 0.588vh #786cf8;
+}
+
+.btn-expandir-dd {
+    width: 100%;
+    padding-left: 1.471vh;
+}
+
+ul li.item-menu-dd {
+    transition: .2s;
+}
+
+ul li.item-menu-dd:hover {
+    padding-left: 1.176vh;
+    margin-left: 1.471vh;
+    width: 73.529vh;
+    background: #786cf8;
+}
+
+ul li.item-menu-dd a {
+    font-size: 2.941vh;
+    padding: 0vh -25%;
+    display: flex;
+    margin-bottom: 2.941vh;
+    line-height: 5.882vh;
+    color: #000000;
+}
+
+ul li.item-menu-dd a .txt-link-dd {
+    margin-left: 0vh;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral-dd.expandir-dd .txt-link-dd {
+    opacity: 1;
+}
+
+/* 
+BTN DIRETOR____________________________________________________________________________________________________________________________________ */
+p#btn-exp-pp {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 2.941vh;
+}
+
+p#btn-exp-pp:hover {
+    color: #d6d2e7;
+}
+
+nav.menu-lateral-pp {
+    width: 0vh;
+    height: 0vh;
+    top: 12.5vh;
+    left: 115.441vh;
+    position: absolute;
+    overflow: hidden;
+    transition: .5s;
+    padding-top: 3.676vh;
+}
+
+nav.menu-lateral-pp.expandir-pp {
+    width: 42.647vh;
+    height: 30.882vh;
+    background-color: #f5f5f5;
+    border-radius: 0.588vh;
+    box-shadow: 0.588vh 0.588vh 0.588vh #786cf8;
+}
+
+.btn-expandir-pp {
+    width: 100%;
+    padding-left: 1.471vh;
+}
+
+ul li.item-menu-pp {
+    transition: .2s;
+}
+
+ul li.item-menu-pp:hover {
+    padding-left: 1.176vh;
+    margin-left: 1.471vh;
+    width: 73.529vh;
+    background: #786cf8;
+}
+
+ul li.item-menu-pp a {
+    font-size: 2.941vh;
+    padding: 0vh -25%;
+    display: flex;
+    margin-bottom: 2.941vh;
+    line-height: 5.882vh;
+    color: #000000;
+}
+
+ul li.item-menu-pp a .txt-link-pp {
+    margin-left: 0vh;
+    transition: .5s;
+    opacity: 0;
+}
+
+nav.menu-lateral-pp.expandir-pp .txt-link-pp {
+    opacity: 1;
+}
+
+/* 
+BUSCA E LOGIN_________________________________________________________________________________________________________________________________
+*/
+div.busca {
+    margin-top: -6.618vh;
+    margin-left: 53.676vh;
+}
+
+input.busca {
+    width: 95.588vh;
+    height: 3.824vh;
+    padding-right: 8.824vh;
+    padding-left: 2.206vh;
+    font-size: 2.941vh;
+    border-bottom-right-radius: 3.676vh;
+    border-top-right-radius: 3.676vh;
+    background-color: #FFFFFF;
+    border-color: #d6d2e7;
+}
+
+button.lupa {
+    cursor: pointer;
+    height: 4.706vh;
+    width: 4.706vh;
+    margin-left: -5.882vh;
+    max-width: 4.118vh;
+    border: none;
+    background-color: transparent;
+}
+
+img.lupa {
+    margin-left: -1.471vh;
+    margin-bottom: -1.029vh;
+    max-width: 4.118vh;
+}
+
+#entrar {
+    margin-left: 10.294vh;
+}
+
+span.tt {
+    font-size: 2.353vh;
+    font-weight: 700;
+    margin-left: 0.735vh;
+    transition: 0.3;
+    color: #2a19ec;
+}
+
+span.tt:hover {
+    color: #766cf1;
+}
+
+div .login {
+    display: flex;
+    margin-top: 4.706vh;
+    margin-left: 13.235vh;
+}
+
+div .login img {
+    margin-bottom: -0.882vh;
+    margin-left: 7.353vh;
+    max-width: 3.529vh;
+}
+
+/* 
+RESTO DA TELA___________________________________________________________________________________________________________________________________
+*/
+
+h2.titulo1 {
+    font-size: 3.529vh;
+    margin-top: 12.059vh;
+    margin-left: 17.647vh;
+    font-family: 700;
+    font-family: 'rubik';
+    color: #786cf8;
+}
+
+img.img_filme {
+    max-width: 44.118vh;
+    margin-top: 2.353vh;
+    margin-left: 2.353vh;
+    border-radius: 1.176vh;
+}
+
+.nome_filme {
+    margin-top: 0.882vh;
+    margin-bottom: 1.176vh;
+    margin-left: 2.353vh;
+    margin-right: 2.353vh;
+    font-size: 2.941vh;
+    text-align: center;
+}
+
+div .circ_num {
+    border-radius: 50%;
+    height: 6.176vh;
+    width: 6.176vh;
+    margin-top: -5.147vh;
+    margin-bottom: 1.471vh;
+    margin-left: 40.735vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e3cff300;
+    border: 0.294vh solid #2a19ec;
+}
+
+p.num {
+    font-size: 2.794vh;
+    font-family: 'rubik';
+    font-style: 700;
+    display: flex;
+    color: #2a19ec;
+}
+
+div.generos a {
+    font-size: 2.059vh;
+    margin-left: 2.353vh;
+    border-radius: 2.059vh;
+    transition: background 0.3s;
+    transition: border-color 0.3.5s;
+    color: #ffffff;
+    background-color: #2a19ec;
+    border: 0.441vh solid #2a19ec;
+}
+
+div.generos a:hover {
+    background-color: #766cf1;
+    border-color: #766cf1;
+}
+
+p.sinopse {
+    margin: 2.353vh 2.353vh 2.353vh 2.353vh;
+    font-size: 2.574vh;
+}
+
+div.box_destaque1 {
+    height: 86.765vh;
+    max-width: 48.824vh;
+    border-radius: 1.176vh;
+    margin-top: 3.676vh;
+    margin-left: 13.603vh;
+    box-shadow: 4.412vh 2.941vh 5.882vh rgba(56, 42, 225, 0.3);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(209, 202, 232, 1) 25%, rgba(156, 140, 205, 1) 50%, rgba(65, 33, 159, 1) 100%);
+}
+
+::-webkit-scrollbar {
+    width: 0.735vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a19ec;
+    border-radius: 9.412vh;
+}
